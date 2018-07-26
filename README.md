@@ -59,6 +59,8 @@
 ## 报名
 报名格式：英文名+负责方向例如：hx-zsj+采购员
 
+- [报名地址](http://bbs.wireless-tech.cn/forum.php?mod=viewthread&tid=169)
+  
 - 采购员：购买做产品的所有元器件、模具及工具
 
   - hx-zsj
