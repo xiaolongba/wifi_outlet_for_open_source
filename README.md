@@ -1,92 +1,25 @@
 ## 前言
-好消息!好消息!好消息!红旭无线向全世界广发英雄帖,制作一款开源的基于ESP32的WIFI插座.红旭无线提供一条龙服务(当且仅当包括资金支持以及售后服务).希望广大工程师通过这个开源项目让无线飞扬起来,让开源流行起来.
+该代码仓主要存放的是红旭无线发起的基于ESP32的WIFI插座开源项目的相关资料.借Github这块宝地,很荣幸能跟五湖四海的朋友一起共事,协作完成此次的开源项目.在这里我代表红旭无线开发团队谢谢具有同样兴趣爱好的朋友的支持.自2018年07月18日发起至今,随着参与人数的增加,现今有了如下的进展,接下来将由我给大家讲解.
 
-## 插座模具
-  - 外形尺寸
+## 时间轴
+正所谓一图胜千言,小编也不废话了直接上图.
+![](https://raw.githubusercontent.com/xiaolongba/picture/master/wifi%E5%BC%80%E6%BA%90%E6%8F%92%E5%BA%A7%E6%97%B6%E9%97%B4%E8%BD%B4.svg?sanitize=true)
 
-    41cm*41cm，已有机械结构尺寸图
-  - 资源
+## 硬件
+硬件的布局已经跟结构配合完成,已经确保模具可以放下这些元器件,以下是硬件布局的渲染图.
+![](https://raw.githubusercontent.com/xiaolongba/picture/master/wifi%E6%8F%92%E5%BA%A7%E5%B8%83%E5%B1%80%E6%AD%A3%E9%9D%A2.jpg)
 
-    外壳 + 金属配件
-##  硬件
-- 开发环境Altium Designer
-- ESP32模组
-- 电源
-  - 实现方法不限,只要能AC to DC即可
+![](https://raw.githubusercontent.com/xiaolongba/picture/master/wifi%E6%8F%92%E5%BA%A7%E5%B8%83%E5%B1%80%E8%83%8C%E9%9D%A2.png)
 
-- 按键
+## 结构
+结构与硬件协作完成了整个模具以及PCBA的布局,以下是结构的3D图.
+![](https://raw.githubusercontent.com/xiaolongba/picture/master/%E6%8F%92%E5%BA%A7%E5%86%85%E9%83%A83D%E5%9B%BE.gif)
 
-  - 一个轻触按键
-
-- 双色LED
-
-  - 一个普通的双色LED灯
-
-- 10A-16A继电器
-
-  - 继电器品牌不限
-
-- 电量计量
-
-  - 计量芯片不限
-
-## 软件
-- 开发平台及环境
-
-  Windows+VScode+乐鑫编译工具链+C语言
-
-- 服务器选择
-
-  优先选择OneNET,如果对接上有问题,红旭可以协助.如果有其他熟悉的云平台资源也可以
-
-- 通讯加密
-
-  数据加密的方式不限,推荐使用mbedtls第三方开源库
-
-- APP
-
-  可以用现成的,也可以自已写或者微信小程序等多种方式均可
-
-- 功能
-  - 定时
-  - 物理按键可开可关
-  - 远程可开可关
-  - 能对接天猫精灵更佳(可选)
-  - 延时开关的功能
-  - 计量功能
+![](https://raw.githubusercontent.com/xiaolongba/picture/master/%E6%8F%92%E5%BA%A7%E5%A4%96%E9%83%A83D%E5%9B%BE.gif)
 
 
 ## 报名
-报名格式：英文名+负责方向例如：hx-zsj+采购员
-
-- [报名地址](http://bbs.wireless-tech.cn/forum.php?mod=viewthread&tid=169)
-- 采购员：购买做产品的所有元器件、模具及工具
-
-  - hx-zsj
-- 件设计师：负责方案选型，原理图设计，layout，硬件调试等
-
-  - double
-  - andy
-- 嵌入式软件设计师：负责方案选型，流程设计，源码编写等
-
-  - skawu
-  - xinc_guo
-  - jason
-- 系统架构师：总领产品方向，硬件选型及软件规划等
-
-  - admin
-- APP工程师：UI设计,界面交互设计以及APP其他逻辑相关的设计
-  - stop：UI效果图设计
-- 需求分析及功能体验师
-
-  - 小学僧
-- 码审核及资料整理
-
-  - alei
-- 结构模具
-
-  - 彩虹小羊
-
+[报名地址](http://bbs.wireless-tech.cn/forum.php?mod=viewthread&tid=169)
 
 ## 交流
 QQ群：671139854
