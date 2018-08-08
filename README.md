@@ -19,7 +19,7 @@
 
 
 ## 报名
-[报名地址](http://bbs.wireless-tech.cn/forum.php?mod=viewthread&tid=169)
+[报名已结束](http://bbs.wireless-tech.cn/forum.php?mod=viewthread&tid=169)
 
 ## 交流
 QQ群：671139854
